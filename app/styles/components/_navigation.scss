@@ -7,8 +7,13 @@
   .menu-text {
     color: $nav-text-color;
   }
-  .menu > .menu-text > a {
-    display: inline;
+  .menu-text a {
     padding: 0;
+  }
+  .top-bar-left .menu-text > a:not(.active-link) {
+    font-weight: normal;
+  }
+  .top-bar-right .menu-text > a {
+    display: inline;
   }
 }
